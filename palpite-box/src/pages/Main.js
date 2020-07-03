@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Header from '../components/Header/Header';
 
 export default function Main() {
   return(
     <div>
-      <header className='bg-teal-600 p-4'>
-        <div className='container mx-auto'>
-          PalpiteBox
-        </div>
-      </header>
+      <Header />
       <div className='container mx-auto'>
         <Link to="/Sobre"> Sobre </Link>
         <Link to="/Contato"> Contato </Link>
