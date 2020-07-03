@@ -4,10 +4,12 @@ import Logo from '../../assets/images/logo_palpitebox.png';
 
 export default function Header() {
   return(
-    <header className='bg-teal-600 p-4'>
+    <>
+      <header className='bg-teal-600 p-4 shadow-md'>
         <div className='container mx-auto'>
-          <img src={Logo} alt="logomarca"/>
+          <img className='mx-auto w-40' src={Logo} alt="PalpiteBox"/>
         </div>
       </header>
+    </>
   );
 }

@@ -7,10 +7,12 @@ export default function Main() {
   return(
     <div>
       <Header />
-      <div className='container mx-auto'>
-        <Link to="/Sobre"> Sobre </Link>
-        <Link to="/Contato"> Contato </Link>
-        <Link to="/Pesquisa"> Pesquisa </Link>
+      <div className='bg-gray-300 p-4'>
+        <div className='container mx-auto text-center'>
+          <Link to="/Sobre" className='px-2 hover:underline'> Sobre </Link>
+          <Link to="/Contato" className='px-2 hover:underline'> Contato </Link>
+          <Link to="/Pesquisa" className='px-2 hover:underline'> Pesquisa </Link>
+        </div>
       </div>
     </div>
   );

@@ -5,16 +5,18 @@ import Main from './pages/Main';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
 import Pesquisa from './pages/Pesquisa';
+import Footer from './components/Footer/Footer'
 
 export default function Routes() {
   return(
     <BrowserRouter>
     <Main />
-    <Switch>
-      <Route exact path="/sobre" component={Sobre} />
-      <Route exact path="/contato" component={Contato} />
-      <Route exact path="/pesquisa" component={Pesquisa} />
-    </Switch>
+      <Switch>
+        <Route exact path="/sobre" component={Sobre} />
+        <Route exact path="/contato" component={Contato} />
+        <Route exact path="/pesquisa" component={Pesquisa} />
+      </Switch>
+    <Footer />
   </BrowserRouter>
   );
 }
