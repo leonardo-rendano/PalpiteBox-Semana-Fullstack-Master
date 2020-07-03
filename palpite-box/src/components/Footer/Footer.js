@@ -7,7 +7,7 @@ export default function Footer() {
   return(
     <div className='bg-teal-700 p-4'>
       <div className='container mx-auto text-center font-bold text-white'>
-        Projeto desenvolvido por Leonardo Rendano durante a Semana Fullstack master, do devPleno.
+        Projeto desenvolvido por Leonardo Rendano durante a Semana Fullstack Master, do devPleno.
         <div className='mt-2'>
           <img className='inline w-40 p-4' src={FSM} alt="Semana Fullstack Master" />
           <img className='inline w-40 p-4' src={devPleno} alt="devPleno" />
